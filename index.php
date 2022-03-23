@@ -10,7 +10,9 @@
 <body>
 
 
-    <?php include('partials/Banner/banner.html') ?>
+    <?php include('templates/components/banner.html') ?>
+
+    <?php include('templates/layouts/nosotros.php') ?>
 
     
     
