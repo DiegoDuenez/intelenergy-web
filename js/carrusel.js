@@ -1,42 +1,33 @@
-var slider = new Glider(document.querySelector(".glider"), {
-    slidesToShow: 4,
-    slidesToScroll:1,
-    draggable: true,
-    /*arrows: {
-        prev: '.glider-prev',
-        next: '.glider-next'
-    }*/
-})
-slideAutoPaly(slider, '.glider');
-function slideAutoPaly(glider, selector, delay = 2000, repeat = true) {
-    let autoplay = null;
-    const slidesCount = glider.track.childElementCount;
-    let nextIndex = 1;
-    let pause = true;
-    function slide() {
-        autoplay = setInterval(() => {
-            if (nextIndex >= slidesCount) {
-                if (!repeat) {
-                    clearInterval(autoplay);
-                } else {
-                    nextIndex = 0;
-                }
+$('.logo-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+    autoplayspeed: 1000,
+    infinite: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
             }
-            glider.scrollItem(nextIndex++);
-        }, delay);
-    }
-    slide();
-    var element = document.querySelector(selector);
-    element.addEventListener('mouseover', (event) => {
-        if (pause) {
-            clearInterval(autoplay);
-            pause = false;
+        },
+            {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
-    }, 300);
-    element.addEventListener('mouseout', (event) => {
-        if (!pause) {
-            slide();
-            pause = true;
-        }
-    }, 300);
-}
+    ]
+});
