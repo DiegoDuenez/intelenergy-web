@@ -7,7 +7,7 @@
     </div>
     <div class="capacitacion__row-card">
 
-        <div class="capacitacion__card">
+        <div class="capacitacion__card" data-aos="zoom-in">
             <div class="capacitacion__header">
                 <img src="assets/1.png" alt="Protecciones">
                 <div class="capacitacion__mask"></div>
@@ -18,7 +18,7 @@
             
         </div>
 
-        <div class="capacitacion__card">
+        <div class="capacitacion__card" data-aos="zoom-in" data-aos-delay="500">
             <div class="capacitacion__header">
                 <img src="assets/2.png" alt="Tableros">
                 <div class="capacitacion__mask"></div>
@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="capacitacion__card">
+        <div class="capacitacion__card" data-aos="zoom-in" data-aos-delay="1000">
             <div class="capacitacion__header">
                 <img src="assets/3.png" alt="Otros">
                 <div class="capacitacion__mask"></div>

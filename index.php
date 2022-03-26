@@ -35,6 +35,9 @@
 
     <?php include('templates/layouts/productos.php') ?>
 
+    <?php include('templates/layouts/contacto.php') ?>
+
+
     
 
     <!--=== JQUERY ===-->
