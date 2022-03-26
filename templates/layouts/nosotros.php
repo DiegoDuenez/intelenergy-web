@@ -1,5 +1,5 @@
 
-<section class="nosotros">
+<section class="nosotros" id="nosotros">
     <div class="nosotros__container">
         <div class="nosotros__content">
             <h2 class="nosotros__title">

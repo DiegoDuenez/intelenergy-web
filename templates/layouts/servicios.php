@@ -1,5 +1,5 @@
 
-<section class="servicios">
+<section class="servicios" id="servicios">
     <div class="servicios__container">
         <div class="servicios__content">
             <h2 class="servicios__title">
