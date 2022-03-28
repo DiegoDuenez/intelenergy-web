@@ -1,5 +1,5 @@
 
-<section class="contacto">
+<section class="contacto" id="contacto">
     <div class="contacto__container contacto__container--column contacto__container--padding contacto__container--start">
         <h2 class="contacto__title">CONTACTO</h2>
     </div>
@@ -17,7 +17,7 @@
     </div>
     <div class="contacto__container contacto__container--mask contacto__container--center contacto__container--column">
         <h3 class="contacto__subtitle">PONTE EN CONTACTO CON NOSOTROS</h3>
-        <form class="contacto__form">
+        <form class="contacto__form" autocomplete="off">
             <div class="contacto__input-group">
                 <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="contacto__input">
                 <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" class="contacto__input">

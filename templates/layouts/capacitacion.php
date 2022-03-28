@@ -1,5 +1,5 @@
 
-<section class="capacitacion" id="capacitación">
+<section class="capacitacion" id="capacitacion">
 
     <div class="capacitacion__container capacitacion__container--column capacitacion__container--padding">
         <h2 class="capacitacion__title">CAPACITACIÓN</h2>

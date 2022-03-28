@@ -21,6 +21,8 @@
 <body>
 
 
+    <?php include('templates/components/fullscreen.html') ?>
+
     <?php include('templates/components/navigation.html') ?>
 
     <?php include('templates/components/banner.html') ?>
@@ -53,6 +55,8 @@
     <!--=== MAIN JS ===-->
     <script src="js/index.js"></script>
     <script src="js/carrusel.js"></script>
+    <script src="js/fullscreen.js"></script>
+
 
    
     

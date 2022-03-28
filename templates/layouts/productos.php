@@ -1,6 +1,4 @@
-
-
-<section class="productos">
+<section class="productos" id="productos">
     <div class="productos__container productos__container--column productos__container--padding">
         <h2 class="productos__title">PRODUCTOS</h2>
     </div>
