@@ -56,6 +56,8 @@
     <script src="js/index.js"></script>
     <script src="js/carrusel.js"></script>
     <script src="js/fullscreen.js"></script>
+    <script src="js/parallax.js"></script>
+
 
 
    

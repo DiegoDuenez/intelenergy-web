@@ -8,7 +8,7 @@
             <a class="contacto__text" href="#">BLVD. INDEPENDENCIA #123 COL. CENTRO CP 270000</a>
             <a class="contacto__text" href="tel:8711234567" >(871) 123 4567</a>
             <a class="contacto__text" href="tel:8711234567" >(871) 123 4567</a>
-            <a class="contacto__text" href="mail:info@intelenergy.com" >info@intelenergy.com</a>
+            <a class="contacto__text" href="mailto:info@intelenergy.com" >info@intelenergy.com</a>
 
         </div>
         <div class="contacto__content">

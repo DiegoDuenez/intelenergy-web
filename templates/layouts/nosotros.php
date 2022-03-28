@@ -1,5 +1,6 @@
 
-<section class="nosotros" id="nosotros">
+<section class="  nosotros" id="nosotros">
+    <div id="nosotros__background"></div>
     <div class="nosotros__container">
         <div class="nosotros__content">
             <h2 class="nosotros__title">
