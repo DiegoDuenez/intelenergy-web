@@ -18,25 +18,41 @@
 </head>
 <body>
 
-
+    <!--=== FULLSCREEN MENU START ===-->
     <?php include('templates/components/fullscreen.html') ?>
+    <!--=== FULLSCREEN MENU END ===-->
 
+    <!--=== NAVIGATION START ===-->
     <?php include('templates/components/navigation.html') ?>
+    <!--=== NAVIGATION END ===-->
 
+    <!--=== BANNER START ===-->
     <?php include('templates/components/banner.html') ?>
+    <!--=== BANNER END ===-->
 
+    <!--=== NOSOTROS START ===-->
     <?php include('templates/layouts/nosotros.php') ?>
+    <!--=== NOSOTROS END ===-->
 
+    <!--=== SERVICIOS START ===-->
     <?php include('templates/layouts/servicios.php') ?>
+    <!--=== SERVICIOS END ===-->
 
+    <!--=== SOLUCIONES START ===-->
     <?php include('templates/layouts/soluciones.php') ?>
+    <!--=== SOLUCIONES END ===-->
 
+    <!--=== CAPACITACION START ===-->
     <?php include('templates/layouts/capacitacion.php') ?>
+    <!--=== CAPACITACION START ===-->
 
+    <!--=== PRODUCTOS START ===-->
     <?php include('templates/layouts/productos.php') ?>
+    <!--=== PRODUCTOS END ===-->
 
+    <!--=== CONTACTO START ===-->
     <?php include('templates/layouts/contacto.php') ?>
-
+    <!--=== CONTACTO END ===-->
 
     
 
