@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css">
     <!--====== AOS CSS ======-->
     <link rel="stylesheet" href="libs/aos/dist/aos.css">
-    <!--====== GLIDER CSS ======-->
-    <link rel="stylesheet" href="libs/glider/glider.min.css">
     <!--====== SLICK CSS ======-->
     <link rel="stylesheet" href="libs/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="libs/slick-1.8.1/slick/slick-theme.css">
@@ -46,8 +44,6 @@
     <script src="libs/jquery/jquery,min.js"></script>
     <!--=== AOS JS ===-->
     <script src="libs/aos/dist/aos.js"></script>
-    <!--=== GLIDER JS ===-->
-    <script src="libs/glider/glider.min.js"></script>
     <!--=== SLICK JS ===-->
     <script src="libs/slick-1.8.1/slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
