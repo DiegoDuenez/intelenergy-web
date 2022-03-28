@@ -1,0 +1,149 @@
+/*
+*   ---------------------------------------------------------------------------------
+*   @Layouts (Capacitacion)
+*   ---------------------------------------------------------------------------------
+*   
+*   In this folder you create all layouts (one file per layout) that you will use for your pages 
+*   like containers, boxes, sections, etc...
+*
+*/
+
+.capacitacion{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-image: url('../../assets/Fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.capacitacion__container{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    height: max-content;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .capacitacion__container{
+            justify-content: center;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+    }
+
+.capacitacion__row-card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 3rem;
+    height: max-content;
+    justify-content: center;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 685px) { 
+        .capacitacion__row-card{
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+
+.capacitacion__container--padding{
+    padding: 2rem 2rem 2rem 12rem;
+}
+@media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .capacitacion__container--padding{
+            text-align: center;
+            padding: 0;
+        }
+    }
+
+.capacitacion__container--center{
+    justify-content: space-evenly;
+}
+
+.capacitacion__container--column{
+    flex-direction: column;
+}
+
+.capacitacion__title{
+    font-size: var(--titulo);
+    color: var(--azul);
+    font-family: BigNoodleTitlingOblique;
+
+}
+
+.capacitacion__subtitle{
+    font-size: var(--subtitulo);
+    color: var(--azul-2);
+    font-family: BigNoodleTitlingOblique;
+}
+
+.capacitacion__card{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 100ms;
+}
+    @media screen and (min-width: 318px) and (max-width: 685px) { 
+        .capacitacion__card{
+            width: 80%;
+            gap: 1rem;
+
+        }
+    }
+
+.capacitacion__mask{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(20, 93, 125, 0);
+    height: 100%;
+    transition: .4s;
+}
+
+.capacitacion__card:hover .capacitacion__mask{
+    background-color: rgba(35, 169, 227, 0.589);
+}
+
+.capacitacion__card:hover .capacitacion__footer p{
+    color: var(--azul);
+}
+
+
+.capacitacion__header{
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    transition: .4s;
+    position: relative;
+}
+
+
+.capacitacion__header img{
+    width: 100%;
+}
+
+.capacitacion__footer{
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    padding: 0 1rem 0 1rem;
+    justify-content: center;
+
+}
+
+.capacitacion__footer p{
+    font-size: var(--texto);
+    color: black;
+    line-height: 1.8rem;
+    font-family: GothamMedium;
+    text-align: center;
+    transition: .4s;
+}

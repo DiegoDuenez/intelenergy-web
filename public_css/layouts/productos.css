@@ -1,0 +1,61 @@
+/*
+*   ---------------------------------------------------------------------------------
+*   @Layouts (Productos)
+*   ---------------------------------------------------------------------------------
+*   
+*   In this folder you create all layouts (one file per layout) that you will use for your pages 
+*   like containers, boxes, sections, etc...
+*
+*/
+
+.productos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-image: url('../../assets/Fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.productos__container{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    height: max-content;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .productos__container{
+            justify-content: center;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+    }
+
+.productos__container--padding{
+    padding: 2rem 2rem 0 12rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+            .productos__container--padding{
+                text-align: center;
+                padding: 0;
+            }
+        }
+        
+.productos__container--column{
+    flex-direction: column;
+}
+
+
+.productos__title{
+    font-size: var(--titulo);
+    color: var(--azul);
+    font-family: BigNoodleTitlingOblique;
+}
+

@@ -1,0 +1,39 @@
+/*
+*   ---------------------------------------------------------------------------------
+*   @Settings (Fonts)
+*   ---------------------------------------------------------------------------------
+*   
+*   Here you can put all your own font families using the @font-face rule.
+*
+*/
+
+
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('../../fonts/big_noodle_titling.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'BigNoodleTitlingOblique';
+    src: url('../../fonts/big_noodle_titling_oblique.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../../fonts/Gotham/Gotham-Black.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamBlackLight';
+    src: url('../../fonts/Gotham/Gotham-Light.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../../fonts/Gotham/Gotham-Medium.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../../fonts/Gotham/Gotham-Bold.otf') format('woff');
+}

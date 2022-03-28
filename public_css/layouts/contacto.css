@@ -1,0 +1,233 @@
+/*
+*   ---------------------------------------------------------------------------------
+*   @Layouts (Contacto)
+*   ---------------------------------------------------------------------------------
+*   
+*   In this folder you create all layouts (one file per layout) that you will use for your pages 
+*   like containers, boxes, sections, etc...
+*
+*/
+
+.contacto{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-image: url('../../assets/Fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.contacto__container{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    height: max-content;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .contacto__container{
+            justify-content: center;
+            padding: 0;
+            margin-bottom: 2rem;
+            flex-direction: column;
+        }
+    }
+
+.contacto__container--mask{
+    /*background-image: linear-gradient(90deg, rgba(149, 196, 83, 0.904) 0%, rgba(0, 0, 0, 0.801) 24%, rgba(0, 0, 0, 0.432)  51%, rgba(0, 0, 0, 0.801) 77%, rgba(0, 0, 0, 0.938) 100%);
+    */
+   /* background-image: linear-gradient(rgba(149, 196, 83, 0.904));
+    background-position: center;
+    background-size: cover;*/
+    /*background-color: #95c4539f;*/
+   /* background-color: #b8b8b89f;*/
+   /* padding-top: 3rem;*/
+    padding-bottom: 3rem;
+}
+
+.contacto__container--start{
+    justify-content: start;
+}
+
+.contacto__container--center{
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto__container--padding{
+    padding: 2rem 2rem 0 12rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+            .contacto__container--padding{
+                text-align: center;
+                padding: 0;
+            }
+        }
+        
+.contacto__container--column{
+    flex-direction: column;
+}
+
+.contacto__title{
+    font-size: var(--titulo);
+    color: var(--azul);
+    font-family: BigNoodleTitlingOblique;
+}
+
+.contacto__subtitle{
+    font-size: var(--subtitulo);
+    color: var(--azul-2);
+    font-family: BigNoodleTitlingOblique;
+    text-align: center;
+}
+
+
+.contacto__content{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    height: max-content;
+    padding: 3rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .contacto__content{
+            justify-content: center;
+            padding-left: 0;
+            width: 100%;
+            padding: 3rem;
+
+        }
+    }
+
+.contacto__content--center{
+    justify-content: start;
+    align-items: center;
+}
+
+.contacto__text{
+    font-size: var(--texto);
+    color: rgb(0, 0, 0);
+    line-height: 1.8rem;
+    font-family: GothamBlackLight;
+    text-decoration: none;
+}
+.contacto__text:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+}
+
+.contacto__input-group{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 700px) { 
+        .contacto__input-group{
+            flex-direction: column;
+        }
+    }
+
+.contacto__input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    transition: 400ms;
+    height: 3rem;
+    width: 50%;
+    font-family: GothamBlackLight;
+
+}
+    @media screen and (min-width: 318px) and (max-width: 700px) { 
+        .contacto__input{
+            width: 100%;
+        }
+    }
+
+.contacto__input::placeholder{
+    color: var(--azul);
+}
+
+.contacto__input:focus{
+    border-bottom: 1px solid var(--azul);
+}
+
+.contacto__input:focus::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.contacto__textarea{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    color: black;
+    width: 100%;
+    resize: none;
+    height: 10rem;
+
+}
+
+.contacto__textarea::placeholder{
+    color: var(--azul);
+}
+
+.contacto__textarea:focus{
+    border-bottom: 1px solid var(--azul);
+}
+
+.contacto__textarea:focus::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.contacto__button{
+    outline: none;
+    color: black;
+    height: 3rem;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background: rgb(227,150,17);
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+
+}
+
+.contacto__button:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-position: right center;
+}
+
+.contacto__button--color{
+   /* background-image: linear-gradient(to right, #e39611 0%, #f9ff00 45%, #9fd013 100%);*/
+    background-image: linear-gradient(to right, #0b2364 0%, #6d84c4 45%, #1e3677 100%);
+    color: white;
+    /* background: linear-gradient(90deg, #e39611 0%, rgba(222,158,18,1) 24%, #f9ff00 51%, #9fd013 77%, rgba(131,171,6,1) 100%);
+*/
+
+}
+
+

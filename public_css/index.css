@@ -1,0 +1,57 @@
+/*
+*   css-scaffold 2022 @DiegoDuenez (Github)
+*   ---------------------------------------------------------------------------------
+*   @Index
+*   ---------------------------------------------------------------------------------
+*   
+*   In this file you run all the resources of your project using the @import url('path/of/css/file') rule.
+*
+*/
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Settings
+*   ---------------------------------------------------------------------------------
+*/
+@import url('settings/normalize.css');
+@import url('settings/fonts.css');
+@import url('settings/root.css');
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Components
+*   ---------------------------------------------------------------------------------
+*/
+@import url('components/banner.css');
+@import url('components/navigation.css');
+@import url('components/carrusel.css');
+@import url('components/fullscreen.css');
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Animations
+*   ---------------------------------------------------------------------------------
+*/
+@import url('animations/animate.css');
+@import url('animations/animations.css');
+
+
+/*
+*   ---------------------------------------------------------------------------------
+*   @Layouts
+*   ---------------------------------------------------------------------------------
+*/
+@import url('layouts/nosotros.css');
+@import url('layouts/servicios.css');
+@import url('layouts/soluciones.css');
+@import url('layouts/capacitacion.css');
+@import url('layouts/productos.css');
+@import url('layouts/contacto.css');
+
+
+
+
+
