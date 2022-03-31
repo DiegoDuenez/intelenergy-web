@@ -1,7 +1,38 @@
+
+<style>
+    .list{
+        color: var(--azul);
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        height: 5rem;
+        padding-right: 3rem;
+
+    }
+
+    .list div{
+        list-style: none;
+        border-bottom: 1px solid var(--azul);
+        width: 100%;
+        padding: 0.5rem;
+        transition: 400ms;
+    }
+
+    .list div:hover{
+        color: white;
+        border-bottom: 1px solid white;
+
+    }
+
+
+</style>
+
 <div class="fullscreen" id="fullscreen">
     <div class="fullscreen__header">
         <div class="fullscreen__logo">
-            <img src="assets/logo-blanco.png" alt="intelenergy">
+            <img src="assets/logo-blanco.png" alt="intelenergy" >
         </div>
     </div>
     <div class="fullscreen__body">
@@ -24,9 +55,23 @@
         </div>
         <div class="fullscreen__content fullscreen__content--end">
             <form class="fullscreen__input "> 
-                <input type="search" name="" id="" placeholder="¿QUÉ ESTÁS BUSCANDO?">
+                <input type="search" name="buscador" id="buscador" placeholder="¿QUÉ ESTÁS BUSCANDO?">
                 <input type="submit" value=">">
+                
+                <!--<ul id="listaArticulos">
+                    <li class="articulo">🍇Mora</li>
+                    <li class="articulo">🍊Naranja</li>
+                    <li class="articulo">🍓Fresa</li>
+                    <li class="articulo">🍐Pera</li>
+                    <li class="articulo">🍍Piña</li>
+                    <li class="articulo">🍌Plátano</li>
+                    <li class="articulo">🍈Melon</li>
+                    <li class="articulo">🥭Mango</li>
+                </ul>-->
             </form>
+            <div class="list"> 
+
+            </div>
             <div class="fullscreen__social-media">
                 <i class="fa-brands fa-facebook-square"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -35,5 +80,6 @@
         </div>
     </div>
 
-
 </div>
+
+

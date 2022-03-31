@@ -22,6 +22,8 @@ $(function () {
     $(".fullscreen").click(function(){
         $("#fullscreen").removeClass('open');
         $("#navigation-image").attr("src","assets/menu_azul.png");
+        $("#navigation-image").css("display", "block");
+
         $("body").css('overflow','scroll')
         $(".cursor").css("display", "none");
 
@@ -35,17 +37,18 @@ $(function () {
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
             $("#navigation-image").attr("src","assets/menu_azul.png");
+            $("#navigation-image").css("display", "block");
             $("body").css('overflow','scroll')
             $(".cursor").css("display", "none");
             
         }
         else{
             $("#fullscreen").addClass('open');
-            $("#navigation-image").attr("src","assets/menu_blanco.png");
+            //$("#navigation-image").attr("src","assets/menu_blanco.png");
             //$("body").css('overflow','hidden')
             $(".cursor").css("display", "block");
+            $("#navigation-image").css("display", "none");
             
-
             const cursor = document.querySelector(".cursor")
             
             document.addEventListener('mousemove', (e)=>{
@@ -59,11 +62,14 @@ $(function () {
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
             $("#navigation-image").attr("src","assets/menu_azul.png");
+            $("#navigation-image").css("display", "block");
+
             $("body").css('overflow','scroll')
         }
         else{
             $("#fullscreen").addClass('open');
             $("#navigation-image").attr("src","assets/menu_blanco.png");
+            $("#navigation-image").css("display", "none");
             $("body").css('overflow','hidden')
         }
     })

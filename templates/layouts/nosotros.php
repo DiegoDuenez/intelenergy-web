@@ -1,5 +1,6 @@
 
 <section class="  nosotros" id="nosotros">
+    <img src="assets/Circuito.png" alt="circuito" class="nosotros__circuito nosotros__circuito--left">
     <div id="nosotros__background"></div>
     <div class="nosotros__container">
         <div class="nosotros__content">
@@ -8,7 +9,7 @@
             </h2>
         </div>
         <div class="nosotros__content">
-            <p class="nosotros__text">
+            <p class="nosotros__text " id="nosotrostext">
                 Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Autem, placeat saepe! Ducimus dignissimos
                 incidunt consectetur commodi quam voluptate est! Iure ea quos 
@@ -28,4 +29,6 @@
             <img src="assets/logo.png" alt="" class="nosotros__img">
         </div>
     </div>
+
+    <img src="assets/Circuito.png" alt="circuito" class="nosotros__circuito nosotros__circuito--right">
 </section>

@@ -9,7 +9,7 @@
         </div>
         <div class="servicios__content">
             <ul class="servicios__list">
-                <li><i class="fa-solid fa-circle"></i> Pruebas a Equipos Eléctronicos</li>
+                <li><i class="fa-solid fa-circle "></i> Pruebas a Equipos Eléctronicos</li>
                 <li><i class="fa-solid fa-circle"></i> Pruebas a Subestaciones</li>
                 <li><i class="fa-solid fa-circle"></i> Pruebas a Esquemas de Protecciones</li>
                 <li><i class="fa-solid fa-circle"></i> Estudios Eléctronicos</li>
