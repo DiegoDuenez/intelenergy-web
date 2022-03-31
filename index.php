@@ -32,19 +32,19 @@
     <!--=== BANNER END ===-->
 
     <!--=== NOSOTROS START ===-->
-    <?php include('templates/layouts/nosotros.php') ?>
+    <?php include('templates/layouts/nosotros.html') ?>
     <!--=== NOSOTROS END ===-->
 
     <!--=== SERVICIOS START ===-->
-    <?php include('templates/layouts/servicios.php') ?>
+    <?php include('templates/layouts/servicios.html') ?>
     <!--=== SERVICIOS END ===-->
 
     <!--=== SOLUCIONES START ===-->
-    <?php include('templates/layouts/soluciones.php') ?>
+    <?php include('templates/layouts/soluciones.html') ?>
     <!--=== SOLUCIONES END ===-->
 
     <!--=== CAPACITACION START ===-->
-    <?php include('templates/layouts/capacitacion.php') ?>
+    <?php include('templates/layouts/capacitacion.html') ?>
     <!--=== CAPACITACION START ===-->
 
     <!--=== PRODUCTOS START ===-->
@@ -52,7 +52,7 @@
     <!--=== PRODUCTOS END ===-->
 
     <!--=== CONTACTO START ===-->
-    <?php include('templates/layouts/contacto.php') ?>
+    <?php include('templates/layouts/contacto.html') ?>
     <!--=== CONTACTO END ===-->
 
     
