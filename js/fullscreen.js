@@ -4,10 +4,13 @@
 *
 */
 
+var navigation_logo = $(".navigation__logo")
+
 $(function () {
 
     $(".fullscreen__link").hover(function(){
         $(".cursor").css("display", "none");
+        
     }, function(){
         $(".cursor").css("display", "block");
     });
@@ -27,9 +30,9 @@ $(function () {
         $("#fullscreen").removeClass('open');
         $("#navigation-image").attr("src","assets/menu_grisclaro.png");
         $("#navigation-image").css("display", "block");
-
         $("body").css('overflow','scroll')
         $(".cursor").css("display", "none");
+        navigation_logo.css("display","block")
 
 
     })
@@ -44,6 +47,7 @@ $(function () {
             $("#navigation-image").css("display", "block");
             $("body").css('overflow','scroll')
             $(".cursor").css("display", "none");
+            navigation_logo.css("display","block")
             
         }
         else{
@@ -52,6 +56,7 @@ $(function () {
             //$("body").css('overflow','hidden')
             $(".cursor").css("display", "block");
             $("#navigation-image").css("display", "none");
+            navigation_logo.css("display","none")
             
             const cursor = document.querySelector(".cursor")
             
@@ -67,7 +72,7 @@ $(function () {
             $("#fullscreen").removeClass('open');
             $("#navigation-image").attr("src","assets/menu_grisclaro.png");
             $("#navigation-image").css("display", "block");
-
+            navigation_logo.css("display","block")
             $("body").css('overflow','scroll')
         }
         else{

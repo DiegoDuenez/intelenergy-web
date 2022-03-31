@@ -21,12 +21,16 @@ window.addEventListener("scroll", function () {
         }
         else{
             navigation.css("top", "3rem");
+            navigation.addClass("animate__fadeInDown")
+
         }
         
     }
     else{
         
         navigation.css("top", "-10rem");
+        navigation.removeClass("animate__fadeInDown")
+
 
     }
     lastScrollTop = scrollTop
