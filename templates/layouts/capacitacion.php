@@ -1,7 +1,7 @@
 
 <section class="capacitacion" id="capacitacion">
 
-    <div class="capacitacion__container capacitacion__container--column capacitacion__container--padding">
+    <div class="capacitacion__container capacitacion__container--column capacitacion__container--padding gap0">
         <h2 class="capacitacion__title">CAPACITACIÓN</h2>
         <h3 class="capacitacion__subtitle">ESTRATEGIAS DE VENTA</h3>
     </div>

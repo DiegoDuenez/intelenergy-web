@@ -1,3 +1,9 @@
+/*
+*
+* @JS (Suggestions)
+*
+*/
+
 let suggestions = [
     "Hola",
     "Adios",

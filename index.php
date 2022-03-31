@@ -70,7 +70,6 @@
     <script src="js/carrusel.js"></script>
     <script src="js/fullscreen.js"></script>
     <script src="js/suggestions.js"></script>
-    <script src="js/script.js"></script>
 
 
 

@@ -22,8 +22,8 @@
         </div>
     </div>
 
-    <div class="servicios__container " >
-        <img src="assets/Servicios.png" alt=""  data-aos="fade-left">
+    <div class="servicios__container"  >
+        <img src="assets/Servicios.png" alt="servicios"  data-aos="fade-left" >
     </div>
     
     <!--<div class="servicios__image">

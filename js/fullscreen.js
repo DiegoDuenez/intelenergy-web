@@ -1,4 +1,8 @@
-
+/*
+*
+* @JS (Fullscreen)
+*
+*/
 
 $(function () {
 
@@ -21,7 +25,7 @@ $(function () {
 
     $(".fullscreen").click(function(){
         $("#fullscreen").removeClass('open');
-        $("#navigation-image").attr("src","assets/menu_azul.png");
+        $("#navigation-image").attr("src","assets/menu_grisclaro.png");
         $("#navigation-image").css("display", "block");
 
         $("body").css('overflow','scroll')
@@ -36,7 +40,7 @@ $(function () {
     $(".fullscreen-open").click(function () {
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
-            $("#navigation-image").attr("src","assets/menu_azul.png");
+            $("#navigation-image").attr("src","assets/menu_grisclaro.png");
             $("#navigation-image").css("display", "block");
             $("body").css('overflow','scroll')
             $(".cursor").css("display", "none");
@@ -61,7 +65,7 @@ $(function () {
     $(".fullscreen__link").click(function(){
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
-            $("#navigation-image").attr("src","assets/menu_azul.png");
+            $("#navigation-image").attr("src","assets/menu_grisclaro.png");
             $("#navigation-image").css("display", "block");
 
             $("body").css('overflow','scroll')
