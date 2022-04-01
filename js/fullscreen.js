@@ -28,7 +28,7 @@ $(function () {
 
     $(".fullscreen").click(function(){
         $("#fullscreen").removeClass('open');
-        $("#navigation-image").attr("src","assets/menu_grisclaro.png");
+        $("#navigation-image").attr("src","assets/menu_verde.png");
         $("#navigation-image").css("display", "block");
         $("body").css('overflow','scroll')
         $(".cursor").css("display", "none");
@@ -43,7 +43,7 @@ $(function () {
     $(".fullscreen-open").click(function () {
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
-            $("#navigation-image").attr("src","assets/menu_grisclaro.png");
+            $("#navigation-image").attr("src","assets/menu_verde.png");
             $("#navigation-image").css("display", "block");
             $("body").css('overflow','scroll')
             $(".cursor").css("display", "none");
@@ -70,7 +70,7 @@ $(function () {
     $(".fullscreen__link").click(function(){
         if($("#fullscreen").hasClass('open')){
             $("#fullscreen").removeClass('open');
-            $("#navigation-image").attr("src","assets/menu_grisclaro.png");
+            $("#navigation-image").attr("src","assets/menu_verde.png");
             $("#navigation-image").css("display", "block");
             navigation_logo.css("display","block")
             $("body").css('overflow','scroll')

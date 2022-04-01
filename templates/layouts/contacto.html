@@ -3,18 +3,16 @@
     <div class="contacto__container contacto__container--column contacto__container--padding contacto__container--start">
         <h2 class="contacto__title">CONTACTO</h2>
     </div>
-    <div class="contacto__container">
+    <!--<div class="contacto__container">
         <div class="contacto__content contacto__content--center">
             <a class="contacto__text" href="#">BLVD. INDEPENDENCIA #123 COL. CENTRO CP 270000</a>
             <a class="contacto__text" href="tel:8711234567" >(871) 123 4567</a>
             <a class="contacto__text" href="tel:8711234567" >(871) 123 4567</a>
             <a class="contacto__text" href="mailto:info@intelenergy.com" >info@intelenergy.com</a>
-
         </div>
         <div class="contacto__content">
-
         </div>
-    </div>
+    </div>-->
     <div class="contacto__container contacto__container--mask contacto__container--center contacto__container--column">
         <h3 class="contacto__subtitle">PONTE EN CONTACTO CON NOSOTROS</h3>
         <form class="contacto__form" autocomplete="off">
@@ -33,7 +31,9 @@
             <div class="contacto__input-group">
                 <textarea name="mensaje" id="mensaje" placeholder="Mensaje" class="contacto__textarea" required></textarea>
             </div>
-            <input type="submit" value="Enviar" class="contacto__button contacto__button--color">
+            <div class="g-recaptcha" data-sitekey="6LcdwzcfAAAAAG3ulSPDou4fGKG8vJr7jrhVN2ky" style="margin-top: 2%; margin:0 auto;"></div>
+            <p style="font-family: GothamBold; color: black !important; text-align: center; align-self: center;" id="status"></p>
+            <input type="button" value="Enviar" class="contacto__button contacto__button--color" onclick="enviar()">
         </form>
     </div>
 </section>
