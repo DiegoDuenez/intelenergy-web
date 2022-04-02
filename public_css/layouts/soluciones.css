@@ -13,23 +13,29 @@
     position: relative;
     width: 100%;
     height: max-content;
-    background-image: url('../../assets/Fondo5.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     flex-direction: column;
 }
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .soluciones{
+            flex-direction: column;
+            background-attachment: scroll;
+        }
+    }
 
 .soluciones__banner{
     display: flex;
     width: 100%;
-    height: max-content;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.938) 0%, rgba(0, 0, 0, 0.801) 24%, rgba(0, 0, 0, 0.432)  51%, rgba(0, 0, 0, 0.801) 77%, rgba(0, 0, 0, 0.938) 100%), url('../../assets/Fondo3.jpg');
+    height: 20rem;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.938) 0%, rgba(0, 0, 0, 0.801) 24%, rgba(0, 0, 0, 0.432)  51%, rgba(0, 0, 0, 0.801) 77%, rgba(0, 0, 0, 0.938) 100%), url('../../assets/Fondo3(2).jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     padding: 0 5rem 0 5rem;
+    justify-content: center;
+    align-items: center;
 }
+
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
         .soluciones__banner{
             flex-direction: column;
@@ -39,12 +45,9 @@
 .soluciones__container{
     display: flex;
     width: 100%;
-    background-image: url('../../assets/Fondo5.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     height: max-content;
     align-items: center;
+    padding: 0;
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
         .soluciones__container{
@@ -54,7 +57,7 @@
 
 .soluciones__title{
     font-size: var(--titulo);
-    color: white;
+    color: var(--azul);
     font-family: BigNoodleTitlingOblique;
     text-align: center;
 
@@ -73,9 +76,9 @@
     width: 50%;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
-    gap: 1rem;
+    gap: 0;
     object-fit: contain;
+
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
         .soluciones__content{
@@ -83,13 +86,23 @@
         }
     }
 
+.soluciones__content--padding{
+    padding-top: 2rem;
+    margin-left: -5rem;
+}
+
+@media screen and (min-width: 318px) and (max-width: 1073px) { 
+    .soluciones__content--padding{
+        margin-left: 0 ;
+    }
+}
 
 .soluciones__list{
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     font-size: 1rem;
     color: rgb(0, 0, 0);
@@ -98,12 +111,15 @@
     padding: 3rem;
     padding-left: 12rem;
     padding-right: 0;
+    padding-top: 0rem;
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
         .soluciones__list{
            width: 100%;
            padding: 4rem;
            padding-bottom: 0;
+           padding-top: 1rem;
+
 
         }
     }
@@ -113,12 +129,13 @@
     color: rgb(122, 122, 122);
 }
 
+
 .soluciones__list li i:before {
     background: -webkit-gradient(linear, left top, left bottom, from(rgb(148, 196, 83)), to(rgb(109, 143, 62)));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    display: initial; /* reset Font Awesome's display:inline-block */
+    display: initial; 
 }
 
 .soluciones__images{

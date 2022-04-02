@@ -13,12 +13,13 @@
     position: relative;
     width: 100%;
     height: max-content;
-    background-image: url('../../assets/Fondo5.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     flex-direction: column;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .contacto{
+            background-attachment: scroll;
+        }
+    }
 
 .contacto__container{
     display:flex;
@@ -26,6 +27,8 @@
     flex-direction: row;
     gap: 1rem;
     height: max-content;
+   
+ 
 }
 
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
@@ -38,15 +41,9 @@
     }
 
 .contacto__container--mask{
-    /*background-image: linear-gradient(90deg, rgba(149, 196, 83, 0.904) 0%, rgba(0, 0, 0, 0.801) 24%, rgba(0, 0, 0, 0.432)  51%, rgba(0, 0, 0, 0.801) 77%, rgba(0, 0, 0, 0.938) 100%);
-    */
-   /* background-image: linear-gradient(rgba(149, 196, 83, 0.904));
-    background-position: center;
-    background-size: cover;*/
-    /*background-color: #95c4539f;*/
-   /* background-color: #b8b8b89f;*/
-   /* padding-top: 3rem;*/
+    background-image: linear-gradient(to bottom, rgba(165, 198, 213, 0) 0%, rgba(14, 176, 246, 0.211) 80%, rgba(14, 176, 246, 0.332) 100%);
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .contacto__container--start{
@@ -158,11 +155,11 @@
     }
 
 .contacto__input::placeholder{
-    color: var(--azul);
+    color: var(--azul-2);
 }
 
 .contacto__input:focus{
-    border-bottom: 1px solid var(--azul);
+    border-bottom: 1px solid var(--azul-2);
 }
 
 .contacto__input:focus::placeholder{
@@ -179,15 +176,16 @@
     width: 100%;
     resize: none;
     height: 10rem;
+    font-family: GothamBlackLight;
 
 }
 
 .contacto__textarea::placeholder{
-    color: var(--azul);
+    color: var(--azul-2);
 }
 
 .contacto__textarea:focus{
-    border-bottom: 1px solid var(--azul);
+    border-bottom: 1px solid var(--azul-2);
 }
 
 .contacto__textarea:focus::placeholder{
@@ -204,13 +202,10 @@
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    background: rgb(227,150,17);
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
     color: rgb(0, 0, 0);
-   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-
 }
 
 .contacto__button:hover{
@@ -222,12 +217,8 @@
 }
 
 .contacto__button--color{
-   /* background-image: linear-gradient(to right, #e39611 0%, #f9ff00 45%, #9fd013 100%);*/
-    background-image: linear-gradient(to right, #0b2364 0%, #6d84c4 45%, #1e3677 100%);
+    background-image: linear-gradient(to right, #0b2364 0%, #1899d1 45%, #1e3677 100%);
     color: white;
-    /* background: linear-gradient(90deg, #e39611 0%, rgba(222,158,18,1) 24%, #f9ff00 51%, #9fd013 77%, rgba(131,171,6,1) 100%);
-*/
-
 }
 
 

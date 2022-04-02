@@ -15,8 +15,9 @@
     display: flex;
     background-image: url('../../assets/FondoMenu.jpg');
     background-position: center;
+    /*background-size: 110% 110%;*/
     background-size: cover;
-    background-size: 110% 110%;
+
      background-position: center center;
     animation: shrink 4s infinite alternate;
     width: 100%;
@@ -29,7 +30,10 @@
     left: 100%;
     padding: 5%;
     transition: left .5s;
+    
 }
+
+   
 
 .fullscreen__background{
     position: absolute;
@@ -39,10 +43,8 @@
 
 }
 
-
 .open{
     left:0;
-    cursor:  url('../../assets/cerrar.png'), auto");
 }
 
 .fullscreen__header{
@@ -67,8 +69,13 @@
     display: flex;
     justify-content: flex-end;
     z-index: 1000;
-
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .fullscreen__body{
+            justify-content: center;
+        }
+    }
+
 
 .fullscreen__links{
     display: flex;
@@ -77,10 +84,16 @@
     width: max-content;
 }
 
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .fullscreen__links{
+            align-items: center;
+        }
+    }
+
 .fullscreen__link{
     font-family: GothamBold;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     transition: .4s;
     text-transform: uppercase;
@@ -97,8 +110,15 @@
     display: flex;
     justify-content: space-between;
     z-index: 2000;
-
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .fullscreen__footer{
+            flex-direction: column;
+        }
+        #fullscreen__contacto{
+            display: none;
+        }
+    }
 
 .fullscreen__content{
     display: flex;
@@ -107,6 +127,11 @@
     width: 30%;
     margin-top: 2rem;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .fullscreen__content{
+            width: 100%;
+        }
+    }
 
 .fullscreen__content--center{
     justify-content: center;
@@ -190,8 +215,9 @@
 
 .cursor{
     transition: 0.1s;
+    pointer-events: none;
+    position: fixed;
     position: absolute;
-    top: 5rem;
     /*font-size: 4rem; 
     color: rgb(255, 255, 255);
     text-align: center*/
@@ -199,6 +225,13 @@
     background-position: center;
     pointer-events: none;*/
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .cursor{
+            display: none;
+            visibility: hidden;
+        }
+    }
+
 
 .cursor img{
     width: 2rem;
@@ -213,3 +246,5 @@
       background-size: 100% 100%;
     }
   }
+
+

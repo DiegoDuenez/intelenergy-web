@@ -9,9 +9,9 @@
 */
 
 :root{
-    --azul:rgb(35, 171, 227);
+    --azul:#0eb2f6;
     --azul-2:rgb(20, 94, 125);
-    --verde: #94c453;
+    --verde: #95cf47;
     --titulo: 4em;
     --subtitulo: 3em;
     --text-2: 2em;
@@ -51,3 +51,21 @@ body>div {
 body>section {
     overflow: hidden !important;
 }
+
+
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url('../../assets/Fondo5.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+

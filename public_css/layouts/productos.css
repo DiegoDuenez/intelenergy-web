@@ -13,13 +13,14 @@
     position: relative;
     width: 100%;
     height: max-content;
-    background-image: url('../../assets/Fondo5.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     flex-direction: column;
     padding-top: 3rem;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .productos{
+            background-attachment: scroll;
+        }
+    }
 
 .productos__container{
     display:flex;

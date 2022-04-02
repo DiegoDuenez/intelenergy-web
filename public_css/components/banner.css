@@ -119,6 +119,17 @@
     bottom: 0;
 }
 
+    @media screen and (min-width: 501px) and (max-width: 1073px) { 
+        .banner__rombos{
+            left: -12rem;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 500px) { 
+        .banner__rombos{
+            display: none;
+        }
+    }
+
 .banner__rombos img{
     width: 100%;
 }
