@@ -33,8 +33,6 @@ $(function () {
         $("body").css('overflow','scroll')
         $(".cursor").css("display", "none");
         navigation_logo.css("display","block")
-
-
     })
     $(".fullscreen__input").click(function(event){
         event.stopPropagation();
