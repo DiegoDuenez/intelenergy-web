@@ -5,6 +5,7 @@
 */
 
 $('.logo-slider').slick({
+    autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
@@ -18,6 +19,7 @@ $('.logo-slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
+                autoplayspeed: 1000,
                 dots: true
             }
         },
