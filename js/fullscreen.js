@@ -45,7 +45,7 @@ $(function () {
             $("#navigation-image").css("display", "block");
             $("body").css('overflow','scroll')
             $(".cursor").css("display", "none");
-            navigation_logo.css("display","block")
+            navigation_logo.css('display','block')
             
         }
         else{
