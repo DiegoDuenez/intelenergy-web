@@ -6,9 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IntelEnergy | Integrador oficial de Sistemas de ABB</title>
+    <meta name="author" content="A W Software">
+    <meta name="web_author" content="Diego Dueñez">
     <meta name="format-detection" content="telephone=no">
+    <meta name="distribution" content="global">
+    <meta property="og:title" content="Intelenergy, Sistemas ABB" />
     <meta name="keywords" content="ABB, Sistemas ABB, sistemas abb, energia, electricidad, generacion electrica,  Soluciones con Controler Cummins, Deepsea, ComAp, DEIF, ABB, GE.">
     <meta name="description" content="Intelenergy es un integrador oficial de Sistemas de ABB que tiene dentro de su portafolio Productos y Soluciones en Baja y Media Tensión aplicables al Segmento de Generación Eléctrica.">
+    <meta name="distribution" content="web">
+    <meta name="robots" content="ALL">
+    <meta name="robots" content="INDEX, FOLLOW">
     <!--===== FAVICON =====-->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <!--===== FONTAWESOME ICONS =====-->
